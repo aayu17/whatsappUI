@@ -72,7 +72,7 @@ class StatusScreen extends StatelessWidget {
                 leading: CircleAvatar(
                   radius: 30,
                   backgroundImage:
-                      AssetImage("assets/images/pratham_status.jpeg"),
+                      AssetImage("assets/images/profile.jpg"),
                   // backgroundColor: Color.fromRGBO(32, 153, 139, 0.984),
                 ),
                 title: Padding(
@@ -83,7 +83,7 @@ class StatusScreen extends StatelessWidget {
                   ),
                 ),
                 subtitle: Text(
-                  "Today, 10:45 am",
+                  "Today, 2:45 am",
                   style: TextStyle(color: Colors.grey.shade800),
                 ),
               ),

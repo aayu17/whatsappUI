@@ -76,8 +76,10 @@ class WhatsAppAppBar extends StatelessWidget {
           ),
         ),
         body: Column(
+          
           children: [
             Container(
+              
               color: Color.fromRGBO(7, 94, 84, 1),
               child: TabBar(
                 labelPadding: EdgeInsets.symmetric(
