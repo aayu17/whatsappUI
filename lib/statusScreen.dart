@@ -68,7 +68,7 @@ class StatusScreen extends StatelessWidget {
               const SizedBox(
                 height: 10,
               ),
-              ListTile(
+               ListTile(
                 leading: CircleAvatar(
                   radius: 30,
                   backgroundImage:
@@ -77,7 +77,7 @@ class StatusScreen extends StatelessWidget {
                 ),
                 title: Padding(
                   padding: const EdgeInsets.only(bottom: 6.0),
-                  child: const Text(
+                  child: Text(
                     "Pratham",
                     style: TextStyle(fontWeight: FontWeight.w700),
                   ),
@@ -88,16 +88,15 @@ class StatusScreen extends StatelessWidget {
                 ),
               ),
               Divider(),
-              Padding(
-                padding: const EdgeInsets.only(top:15.0,left: 50),
-                child: Row(
+              const Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Icon(LineAwesomeIcons.lock,color: Colors.black,),
-                    Text("Your status updates are "),
-                    Text("end-to-end encrypted",style: TextStyle(color:Colors.green),),
+                    Text("Your status updates are ",style: TextStyle(fontSize: 12),),
+                    Text("end-to-end encrypted",style: TextStyle(color:Colors.green,fontSize: 12),),
                   ],
                 ),
-              )
+              
             ],
           ),
           Positioned(

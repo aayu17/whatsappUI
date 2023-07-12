@@ -22,8 +22,7 @@ List<chatModel> dummy = [
       name: "Ayush",
       message: "Hello",
       time: "6:20 pm",
-      photo:
-          "https://scontent-ccu1-2.cdninstagram.com/v/t51.2885-19/290291614_1172260553347278_2277120414787689664_n.jpg?stp=dst-jpg_s320x320&_nc_ht=scontent-ccu1-2.cdninstagram.com&_nc_cat=106&_nc_ohc=Ipw66LHTgaIAX8ms4d1&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfD0GFl4AVbQGdps1ATpBQDwiumQzLpj5dixS_npxGAnpw&oe=64A936F7&_nc_sid=8b3546"),
+      photo:"https://scontent-ccu1-2.cdninstagram.com/v/t51.2885-19/290291614_1172260553347278_2277120414787689664_n.jpg?stp=dst-jpg_s320x320&_nc_ht=scontent-ccu1-2.cdninstagram.com&_nc_cat=106&_nc_ohc=EFWt4eJs_1cAX8uRSOC&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAfA12idQpcwo5RKlGb_iMDdrCuviUdgvg6RpVjnO8X9w&oe=64B11FF7&_nc_sid=8b3546"),
   new chatModel(
       name: "Aman",
       message: "Hello",

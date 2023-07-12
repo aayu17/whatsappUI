@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_ui/LogIn/enterNumber.dart';
 import 'package:whatsapp_ui/whatsappAppBar.dart';
+import 'package:firebase_core/firebase_core.dart';
+Future<void> main() async {
 
-void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -10,9 +14,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: WhatsAppAppBar(),
+      home: EnterNumber(),
     );
   }
 }

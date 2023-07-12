@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_ui/callScreen.dart';
 import 'package:whatsapp_ui/chatScreen.dart';
 import 'package:whatsapp_ui/statusScreen.dart';
 
@@ -151,6 +152,7 @@ class WhatsAppAppBar extends StatelessWidget {
               ),
               Container(
                 color: Colors.black,
+                child: CallScreen(),
               ),
             ]))
           ],
